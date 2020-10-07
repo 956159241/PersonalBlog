@@ -1,8 +1,7 @@
 module.exports = {
-    outputDir: 'blog',
     configureWebpack: {
         devServer: {
-            open: true,
+            open: true, // 运行项目自动打开浏览器
         }
     }
 }
